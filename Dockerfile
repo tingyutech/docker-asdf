@@ -1,4 +1,4 @@
-FROM debian:bookworm
+FROM debian:11
 
 RUN apt-get -y update && \
   apt-get -y install curl git bash ca-certificates jq && \
